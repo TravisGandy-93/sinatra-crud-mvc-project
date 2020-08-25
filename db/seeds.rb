@@ -5,11 +5,11 @@ sonder = Band.create(name: "Sonder")
 earth_gang = Band.create(name: "Earthgang")
 the_internet = Band.create(name: "The Internet")
 
-tom = User.create(username: "Tom", password: 111111)
-mark = User.create(username: "Mark", password: 222222)
+tom = User.create(username: "Tom", password: "111111")
+mark = User.create(username: "Mark", password: "222222")
 
 Track.create(name: "Back Stroke", band: takeova_band, user: tom)
-Track.create(name: "Take Em To Church", band: takeova_bands, user: mark)
+Track.create(name: "Take Em To Church", band: takeova_band, user: mark)
 
 Track.create(name: "My Chick", band: new_impressionz, user: tom)
 Track.create(name: "Move Your Body", band: new_impressionz, user: mark)
